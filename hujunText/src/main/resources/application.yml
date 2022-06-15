@@ -11,5 +11,10 @@ spring:
 mybatis:
   mapper-locations: classpath:mapper/*.xml
   type-aliases-package: com.example.demo.model
+# 自定义文件保存路径
+gorit:
+  file:
+    root:
+      path: F:\Github\Hujun_interfacetext\caseXlsx\
 server:
   port: 9000
