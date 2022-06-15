@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default Suite]">
+  <test name="userlogin02(failed)">
+    <classes>
+      <class name="com.naughty.userlogin02.controller.usercontrollerText">
+        <methods>
+          <include name="testuserlogin"/>
+        </methods>
+      </class> <!-- com.naughty.userlogin02.controller.com.naughty.userlogin02.TestngService.usercontrollerText -->
+    </classes>
+  </test> <!-- userlogin02(failed) -->
+</suite> <!-- Failed suite [Default Suite] -->

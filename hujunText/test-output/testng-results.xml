@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Command line suite" duration-ms="1317" started-at="2022-06-15T09:23:17Z" finished-at="2022-06-15T09:23:19Z">
+    <groups>
+    </groups>
+    <test name="Command line test" duration-ms="1317" started-at="2022-06-15T09:23:17Z" finished-at="2022-06-15T09:23:19Z">
+      <class name="com.naughty.userlogin02.controller.usercontrollerText">
+        <test-method status="PASS" signature="testuserlogin(com.naughty.userlogin02.model.Case)[pri:0, instance:com.naughty.userlogin02.controller.usercontrollerText@725bef66]" name="testuserlogin" duration-ms="1294" started-at="2022-06-15T17:23:17Z" data-provider="datas" finished-at="2022-06-15T17:23:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Case(id=1, desction=用户登录, params={
+  "cardid": "41809310109",
+  "day": "2022-06-15",
+  "id": 0,
+  "major": "计算机科学与技术",
+  "temp": "26.5",
+  "uid": 4,
+  "uptime": "2022-06-15",
+  "username": "王小贱"
+}, massert=上报成功)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testuserlogin -->
+      </class> <!-- com.naughty.userlogin02.controller.com.naughty.userlogin02.TestngService.usercontrollerText -->
+    </test> <!-- Command line test -->
+  </suite> <!-- Command line suite -->
+</testng-results>
