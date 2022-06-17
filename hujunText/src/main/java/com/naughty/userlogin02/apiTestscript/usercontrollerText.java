@@ -1,8 +1,7 @@
-package com.naughty.userlogin02.TestngService;
+package com.naughty.userlogin02.apiTestscript;
 
 import com.naughty.userlogin02.model.Case;
 import com.naughty.userlogin02.utils.Assert.Assertion;
-import com.naughty.userlogin02.utils.Listener.AssertListener;
 import com.naughty.userlogin02.utils.excl.Pushtest;
 import com.naughty.userlogin02.utils.httputils.Constants;
 import com.naughty.userlogin02.utils.httputils.HttpUtils;
@@ -10,7 +9,6 @@ import org.apache.http.entity.ContentType;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.mock.web.MockMultipartFile;
-import org.springframework.util.Assert;
 import org.springframework.web.multipart.MultipartFile;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Listeners;

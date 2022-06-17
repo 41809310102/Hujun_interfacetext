@@ -1,11 +1,11 @@
 package com.naughty.userlogin02.controller;
 
-import com.naughty.userlogin02.TestngService.usercontrollerText;
+import com.naughty.userlogin02.apiTestscript.usercontrollerText;
 import com.naughty.userlogin02.model.Case;
-import com.naughty.userlogin02.utils.excl.Pushtest;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Value;
+import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
@@ -20,6 +20,7 @@ import java.util.LinkedList;
 import java.util.List;
 
 @RestController
+@CrossOrigin(origins ={"http://localhost:8080","http://localhost:63342","http://localhost:8081"})
 public class Testngcontroller {
     @PostMapping("api/doTest/testng")
     public String  doTest() {

@@ -3,7 +3,7 @@ package com.naughty.userlogin02;
 import org.mybatis.spring.annotation.MapperScan;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-@MapperScan("com.naughty.userlogin02.dao")
+@MapperScan("com.naughty.userlogin02")
 @SpringBootApplication
 public class TextstartApplication {
 

@@ -4,7 +4,7 @@ spring:
   datasource:
     #MySQL配置
     driverClassName:  com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://localhost:3306/mycloud?useUnicode=true&characterEncoding=UTF-8&useSSL=false&serverTimezone=UTC
+    url: jdbc:mysql://localhost:3306/testdb?useUnicode=true&characterEncoding=UTF-8&useSSL=false&serverTimezone=UTC
     username: root
     password: 318422
 
@@ -18,3 +18,6 @@ gorit:
       path: F:\Github\Hujun_interfacetext\caseXlsx\
 server:
   port: 9000
+
+myToken:
+  token: 1234567

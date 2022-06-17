@@ -57,6 +57,12 @@
             <version>2.1.2</version>
         </dependency>
 
+        <dependency><!-- 添加mybatis依赖 -->
+            <groupId>org.mybatis</groupId>
+            <artifactId>mybatis</artifactId>
+            <version>3.4.5</version>
+        </dependency>
+
         <dependency>
             <groupId>mysql</groupId>
             <artifactId>mysql-connector-java</artifactId>
